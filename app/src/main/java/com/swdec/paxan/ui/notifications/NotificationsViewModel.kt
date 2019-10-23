@@ -1,13 +1,13 @@
-package com.swdec.paxan.ui.send
+package com.swdec.paxan.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class SendViewModel : ViewModel() {
+class NotificationsViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is send Fragment"
+        value = "This is notifications Fragment"
     }
     val text: LiveData<String> = _text
 }
