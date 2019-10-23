@@ -1,14 +1,27 @@
 <resources>
     <string name="app_name">paXan</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Niklas Arnitz</string>
-    <string name="nav_header_subtitle">EC-Durmersheim</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Mein paXan</string>
-    <string name="menu_gallery">Seminarplan</string>
-    <string name="menu_slideshow">Karte</string>
-    <string name="menu_tools">Lexikon</string>
+    <string name="title_home">Mein paXan</string>
+    <string name="title_plan">Seminarplan</string>
+    <string name="title_map">Karte</string>
+    <string name="title_dictionary">Lexikon</string>
+
+    <string name="home_image_alt">Silhouette eines Menschen</string>
+    <string name="home_title">Hallo, TODO!</string>
+    <string name="home_summary">paXan startet in x Tagen!\nDann kannst du die App benutzen</string>
+
+    <string-array name="plan_items">
+        <item>#heimatkunde</item>
+        <item>#heimatlos</item>
+        <item>#heimweh</item>
+        <item>#heimweg</item>
+    </string-array>
+
+    <string-array name="dictionary_items">
+        <item>paXan</item>
+        <item>Jesus</item>
+        <item>SWDEC</item>
+        <item>FSZ-Dobel</item>
+        <item>Sporthalle</item>
+    </string-array>
 </resources>
