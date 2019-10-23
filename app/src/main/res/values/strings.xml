@@ -9,4 +9,11 @@
     <string name="home_image_alt">Silhouette eines Menschen</string>
     <string name="home_title">Hallo, TODO!</string>
     <string name="home_summary">paXan startet in x Tagen!\nDann kannst du die App benutzen</string>
+
+    <string-array name="plan_items">
+        <item>#heimatkunde</item>
+        <item>#heimatlos</item>
+        <item>#heimweh</item>
+        <item>#heimweg</item>
+    </string-array>
 </resources>
