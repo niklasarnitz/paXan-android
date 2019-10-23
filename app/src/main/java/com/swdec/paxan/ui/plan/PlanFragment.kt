@@ -28,8 +28,8 @@ class PlanFragment : Fragment() {
         val values = resources.getStringArray(R.array.plan_items)
         val adapter = ArrayAdapter<String>(
             context!!,
-            android.R.layout.simple_list_item_1,
-            android.R.id.text1,
+            R.layout.list_item_plan,
+            R.id.text1,
             values
         )
         listView.adapter = adapter

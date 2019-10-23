@@ -16,4 +16,12 @@
         <item>#heimweh</item>
         <item>#heimweg</item>
     </string-array>
+
+    <string-array name="dictionary_items">
+        <item>paXan</item>
+        <item>Jesus</item>
+        <item>SWDEC</item>
+        <item>FSZ-Dobel</item>
+        <item>Sporthalle</item>
+    </string-array>
 </resources>
