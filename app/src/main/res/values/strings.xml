@@ -2,7 +2,8 @@
     <string name="app_name">paXan</string>
 
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_home">Mein paXan</string>
+    <string name="title_plan">Seminarplan</string>
+    <string name="title_map">Karte</string>
+    <string name="title_dictionary">Lexikon</string>
 </resources>

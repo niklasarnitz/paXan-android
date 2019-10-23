@@ -1,4 +1,4 @@
-package com.swdec.paxan.ui.notifications
+package com.swdec.paxan.ui.dictionary
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,20 +10,20 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.swdec.paxan.R
 
-class NotificationsFragment : Fragment() {
+class DictionaryFragment : Fragment() {
 
-    private lateinit var notificationsViewModel: NotificationsViewModel
+    private lateinit var dictionaryViewModel: DictionaryViewModel
 
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        notificationsViewModel =
-            ViewModelProviders.of(this).get(NotificationsViewModel::class.java)
-        val root = inflater.inflate(R.layout.fragment_notifications, container, false)
-        val textView: TextView = root.findViewById(R.id.text_notifications)
-        notificationsViewModel.text.observe(this, Observer {
+        dictionaryViewModel =
+            ViewModelProviders.of(this).get(DictionaryViewModel::class.java)
+        val root = inflater.inflate(R.layout.fragment_home, container, false)
+        val textView: TextView = root.findViewById(R.id.text_home)
+        dictionaryViewModel.text.observe(this, Observer {
             textView.text = it
         })
         return root
