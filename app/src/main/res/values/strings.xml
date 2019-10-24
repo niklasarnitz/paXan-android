@@ -24,4 +24,12 @@
         <item>FSZ-Dobel</item>
         <item>Sporthalle</item>
     </string-array>
+
+    <string-array name="dictionary_texts">
+        <item>paXan ist ein Mitarbeiterkongress des SWDEC</item>
+        <item>Gottes Sohn, Retter aller, welche an ihn glauben</item>
+        <item>Der SWDEC ist ein Unterverband der Weltweiten EC-Bewegung.\nEs is ein Verband christlicher Jugendarbeiten, bei denen Jesus Christus im Mittelpunkt des Lebens der Mitglieder und der Gemeinden steht.\nDer SWDEC arbeitet ebenfalls eng mit den Liebenzeller Gemeinschaften und der Evangelischen Landeskirche zusammen.</item>
+        <item>Das Freizeitzentrum des SWDEC im schönen Ort Dobel, ist das Haupt-Schulungszentrum des SWDEC-Jugendverbandes.</item>
+        <item>In der Sporthalle finden die Hauptsächlichen Events von paXan statt.</item>
+    </string-array>
 </resources>
