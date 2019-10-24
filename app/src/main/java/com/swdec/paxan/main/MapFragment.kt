@@ -1,4 +1,4 @@
-package com.swdec.paxan.ui.map
+package com.swdec.paxan.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
