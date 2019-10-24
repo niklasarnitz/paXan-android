@@ -16,8 +16,8 @@ jobs:
             ./gradlew :app:assembleDebug
             ./gradlew :app:assembleDebugAndroidTest
       - store_artifacts:
-        path: app/build/outputs
-        destination: apk
+          path: app/build/outputs
+          destination: apk
       - run:
           name: "Publish Release on GitHub"
           command: |
