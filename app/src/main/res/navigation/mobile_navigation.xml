@@ -6,25 +6,25 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.swdec.paxan.ui.home.HomeFragment"
+        android:name="com.swdec.paxan.main.HomeFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/navigation_plan"
-        android:name="com.swdec.paxan.ui.plan.PlanFragment"
+        android:name="com.swdec.paxan.main.PlanFragment"
         android:label="@string/title_plan"
         tools:layout="@layout/fragment_plan" />
 
     <fragment
         android:id="@+id/navigation_map"
-        android:name="com.swdec.paxan.ui.map.MapFragment"
+        android:name="com.swdec.paxan.main.MapFragment"
         android:label="@string/title_map"
         tools:layout="@layout/fragment_map" />
 
     <fragment
         android:id="@+id/navigation_dictionary"
-        android:name="com.swdec.paxan.ui.dictionary.DictionaryFragment"
+        android:name="com.swdec.paxan.main.DictionaryFragment"
         android:label="@string/title_dictionary"
         tools:layout="@layout/fragment_dictionary" />
 </navigation>

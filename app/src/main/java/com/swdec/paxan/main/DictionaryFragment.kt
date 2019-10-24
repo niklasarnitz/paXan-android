@@ -1,5 +1,6 @@
-package com.swdec.paxan.ui.dictionary
+package com.swdec.paxan.main
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,6 +9,9 @@ import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.fragment.app.Fragment
 import com.swdec.paxan.R
+import android.widget.AdapterView.OnItemClickListener
+import com.swdec.paxan.DictionaryActivity
+
 
 class DictionaryFragment : Fragment() {
 
@@ -26,6 +30,9 @@ class DictionaryFragment : Fragment() {
             values
         )
         listView.adapter = adapter
+        listView.onItemClickListener = OnItemClickListener { _, _, position, _ ->
+            startActivity(Intent(context!!, DictionaryActivity::class.java).putExtra("position", position))
+        }
         return root
     }
 }
