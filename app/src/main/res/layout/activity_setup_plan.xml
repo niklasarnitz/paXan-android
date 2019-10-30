@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setup_header"
+        android:gravity="bottom"
+        android:padding="?dialogPreferredPadding"
+        android:text="@string/setup_header"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/setup_card"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="?dialogPreferredPadding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:id="@+id/summary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan_summary"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:id="@+id/plan_title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_heimatlos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <RadioGroup
+                    android:id="@+id/plan1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_1" />
+
+                    <RadioButton
+                        android:id="@+id/plan11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_1" />
+
+                    <RadioButton
+                        android:id="@+id/plan12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_1" />
+                </RadioGroup>
+
+                <RadioGroup
+                    android:id="@+id/plan2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_2" />
+
+                    <RadioButton
+                        android:id="@+id/plan21"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_2" />
+
+                    <RadioButton
+                        android:id="@+id/plan22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_2" />
+                </RadioGroup>
+
+                <TextView
+                    android:id="@+id/plan_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_heimweh"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <RadioGroup
+                    android:id="@+id/plan3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_3" />
+
+                    <RadioButton
+                        android:id="@+id/plan31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_3" />
+
+                    <RadioButton
+                        android:id="@+id/plan32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setup_plan_3" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="?dialogPreferredPadding"
+            android:text="@string/setup_continue" />
+    </RelativeLayout>
+</LinearLayout>
