@@ -7,6 +7,7 @@
         <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
         <item name="spinnerStyle">@style/AppThemeSpinner</item>
         <item name="spinnerDropDownItemStyle">@style/AppThemeSpinnerItem</item>
+        <item name="buttonStyle">@style/AppThemeButton</item>
     </style>
 
     <style name="AppTheme.NoActionbar" parent="AppTheme">
@@ -27,6 +28,13 @@
 
     <style name="SetupButton" parent="Widget.AppCompat.Button">
         <item name="android:background">@null</item>
+        <item name="android:stateListAnimator" tools:targetApi="21">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">?colorAccent</item>
+    </style>
+
+    <style name="AppThemeButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
         <item name="android:stateListAnimator" tools:targetApi="21">@null</item>
         <item name="android:textAllCaps">false</item>
         <item name="android:textColor">?colorAccent</item>

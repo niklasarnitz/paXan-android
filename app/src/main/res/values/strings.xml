@@ -25,9 +25,11 @@
     <string name="home_image_alt">Silhouette eines Menschen</string>
     <string name="home_title">Hallo, %1$s!</string>
     <string name="home_summary">paXan startet in x Tagen!\nDann kannst du die App benutzen</string>
+    <string name="home_change_name">Name ändern</string>
 
     <string name="plan_heimatlos">#heimatlos</string>
     <string name="plan_heimweh">#heimweh</string>
+    <string name="plan_change_plan">Seminare ändern</string>
 
     <string-array name="plan_placeholder">
         <item>Seminar</item>

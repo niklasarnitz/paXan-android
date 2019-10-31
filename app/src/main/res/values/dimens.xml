@@ -6,4 +6,5 @@
     <dimen name="home_image_height">72dp</dimen>
     <dimen name="border_radius">4dp</dimen>
     <dimen name="dialog_corner_radius">16dp</dimen>
+    <dimen name="navbar_height">56dp</dimen>
 </resources>
