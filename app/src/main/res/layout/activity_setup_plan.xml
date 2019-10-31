@@ -54,53 +54,31 @@
                     android:text="@string/plan_heimatlos"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-                <RadioGroup
-                    android:id="@+id/plan1"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding">
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan_1" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_1" />
-
-                    <RadioButton
-                        android:id="@+id/plan11"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_1" />
-
-                    <RadioButton
-                        android:id="@+id/plan12"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_1" />
-                </RadioGroup>
-
-                <RadioGroup
-                    android:id="@+id/plan2"
+                <Spinner
+                    android:id="@+id/plan11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding">
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:entries="@array/plan_placeholder" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_2" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan_2" />
 
-                    <RadioButton
-                        android:id="@+id/plan21"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_2" />
-
-                    <RadioButton
-                        android:id="@+id/plan22"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_2" />
-                </RadioGroup>
+                <Spinner
+                    android:id="@+id/plan12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:entries="@array/plan_placeholder" />
 
                 <TextView
                     android:id="@+id/plan_title2"
@@ -110,29 +88,18 @@
                     android:text="@string/plan_heimweh"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
-                <RadioGroup
-                    android:id="@+id/plan3"
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding">
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan_3" />
 
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_3" />
-
-                    <RadioButton
-                        android:id="@+id/plan31"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_3" />
-
-                    <RadioButton
-                        android:id="@+id/plan32"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/setup_plan_3" />
-                </RadioGroup>
+                <Spinner
+                    android:id="@+id/plan21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:entries="@array/plan_placeholder" />
             </LinearLayout>
         </ScrollView>
 

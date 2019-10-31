@@ -4,6 +4,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
+        <item name="spinnerStyle">@style/AppThemeSpinner</item>
+        <item name="spinnerDropDownItemStyle">@style/AppThemeSpinnerItem</item>
     </style>
 
     <style name="AppTheme.NoActionbar" parent="AppTheme">
@@ -32,6 +35,15 @@
     <style name="AppThemeWindowTransition">
         <item name="android:windowEnterAnimation">@null</item>
         <item name="android:windowExitAnimation">@null</item>
+    </style>
+
+    <style name="AppThemeSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">@drawable/spinner_background</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+
+    <style name="AppThemeSpinnerItem" parent="Widget.AppCompat.Light.DropDownItem.Spinner">
+        <item name="android:paddingStart" tools:targetApi="17">?dialogPreferredPadding</item>
     </style>
 
 </resources>

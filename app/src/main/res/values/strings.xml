@@ -29,6 +29,13 @@
     <string name="plan_heimatlos">#heimatlos</string>
     <string name="plan_heimweh">#heimweh</string>
 
+    <string-array name="plan_placeholder">
+        <item>Seminar</item>
+        <item>Seminar</item>
+        <item>Seminar</item>
+        <item>Seminar</item>
+    </string-array>
+
     <string-array name="plan_items">
         <item>#heimatkunde</item>
         <item>#heimatlos</item>
