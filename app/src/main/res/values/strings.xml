@@ -21,6 +21,7 @@
     <string name="title_plan">Seminarplan</string>
     <string name="title_map">Karte</string>
     <string name="title_dictionary">Lexikon</string>
+    <string name="title_info">Infos</string>
 
     <string name="home_image_alt">Silhouette eines Menschen</string>
     <string name="home_title">Hallo, %1$s!</string>
