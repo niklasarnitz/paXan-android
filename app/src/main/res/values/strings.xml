@@ -1,20 +1,56 @@
 <resources>
     <string name="app_name">paXan</string>
 
+    <string name="loading">Lade …</string>
+    <string name="error">Fehler …</string>
+
+    <string name="setup_header">Setup</string>
+    <string name="setup_welcome">Willkommen in der paXan App!</string>
+    <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWDEC heißen wir dich herzlich Willkommen zu paXan 2020!</string>
+    <string name="setup_name">Deine paXan App</string>
+    <string name="setup_name_summary">Damit wir dich in der App etwas persönlicher ansprechen können, gib bitte im unteren Textfeld deinen Vornamen ein. Den speichern wir natürlich nur auf deinem Gerät.</string>
+    <string name="setup_name_hint">Name</string>
+    <string name="setup_plan">Deine paXan Seminare</string>
+    <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falsch du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
+    <string name="setup_finish">Und jetzt viel Spaß bei paXan!</string>
+    <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
+    <string name="setup_continue">Weiter</string>
+    <string name="setup_continue2">Fertig</string>
+
     <string name="title_home">Mein paXan</string>
     <string name="title_plan">Seminarplan</string>
     <string name="title_map">Karte</string>
     <string name="title_dictionary">Lexikon</string>
+    <string name="title_info">Infos</string>
 
     <string name="home_image_alt">Silhouette eines Menschen</string>
     <string name="home_title">Hallo, %1$s!</string>
     <string name="home_summary">paXan startet in x Tagen!\nDann kannst du die App benutzen</string>
+    <string name="home_change_name">Name ändern</string>
 
-    <string-array name="plan_items">
-        <item>#heimatkunde</item>
-        <item>#heimatlos</item>
-        <item>#heimweh</item>
-        <item>#heimweg</item>
+    <string name="plan_heimatlos">#heimatlos</string>
+    <string name="plan_heimweh">#heimweh</string>
+    <string name="plan_1">Seminar 1</string>
+    <string name="plan_2">Seminar 2</string>
+    <string name="plan_3">Seminar 3</string>
+    <string name="plan_change_plan">Seminare ändern</string>
+
+    <string-array name="plan_spinner_1">
+        <item>Nichts ausgewählt</item>
+        <item>Echt Mann sein</item>
+        <item>Echt Frau sein</item>
+    </string-array>
+
+    <string-array name="plan_spinner_2">
+        <item>Nichts ausgewählt</item>
+        <item>Öffentlichkeitsarbeit</item>
+        <item>Flaggenworship für Anfänger</item>
+    </string-array>
+
+    <string-array name="plan_spinner_3">
+        <item>Nichts ausgewählt</item>
+        <item>Generation Worship</item>
+        <item>Technik - Ein Mittel zum Zweck?</item>
     </string-array>
 
     <string-array name="dictionary_items">

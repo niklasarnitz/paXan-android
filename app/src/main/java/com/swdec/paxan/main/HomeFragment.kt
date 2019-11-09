@@ -18,7 +18,9 @@ class HomeFragment : Fragment() {
     ): View? {
         val root = inflater.inflate(R.layout.fragment_home, container, false)
         val prefs = PreferenceManager.getDefaultSharedPreferences(context!!)
-        root.findViewById<TextView>(R.id.titleTxt).text = resources.getString(R.string.home_title, prefs.getString("name", "Gast"))
+        var name = prefs.getString("name", "Gast") ?:"Gast"
+        if (name == "") name = "Gast"
+        root.findViewById<TextView>(R.id.titleTxt).text = resources.getString(R.string.home_title, name)
         return root
     }
 }

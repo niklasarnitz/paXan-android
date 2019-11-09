@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="?dialogPreferredPadding">
+    android:padding="?dialogPreferredPadding"
+    android:layout_marginBottom="@dimen/navbar_height">
 
     <ImageView
+        android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="@dimen/home_image_height"
         app:srcCompat="@drawable/ic_person"
@@ -17,15 +19,22 @@
         android:id="@+id/titleTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/image"
         android:text="@string/home_title"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
-        android:id="@+id/summaryTxt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@id/titleTxt"
         android:text="@string/home_summary"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
-</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/home_change_name" />
+</RelativeLayout>

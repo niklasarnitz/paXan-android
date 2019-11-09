@@ -4,10 +4,10 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ListView
 import androidx.fragment.app.Fragment
 import com.swdec.paxan.R
-import android.widget.ArrayAdapter
+import android.widget.TextView
+import androidx.preference.PreferenceManager
 
 class PlanFragment : Fragment() {
 
@@ -17,15 +17,10 @@ class PlanFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         val root = inflater.inflate(R.layout.fragment_plan, container, false)
-        val listView: ListView = root.findViewById(R.id.listView)
-        val values = resources.getStringArray(R.array.plan_items)
-        val adapter = ArrayAdapter<String>(
-            context!!,
-            R.layout.list_item_plan,
-            R.id.text1,
-            values
-        )
-        listView.adapter = adapter
+        val prefs = PreferenceManager.getDefaultSharedPreferences(context)
+        root.findViewById<TextView>(R.id.plan_1_txt).text = prefs.getString("plan_spinner_1", resources.getString(R.string.error))
+        root.findViewById<TextView>(R.id.plan_2_txt).text = prefs.getString("plan_spinner_2", resources.getString(R.string.error))
+        root.findViewById<TextView>(R.id.plan_3_txt).text = prefs.getString("plan_spinner_3", resources.getString(R.string.error))
         return root
     }
 }

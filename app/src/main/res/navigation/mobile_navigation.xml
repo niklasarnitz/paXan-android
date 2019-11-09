@@ -27,4 +27,10 @@
         android:name="com.swdec.paxan.main.DictionaryFragment"
         android:label="@string/title_dictionary"
         tools:layout="@layout/fragment_dictionary" />
+
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.swdec.paxan.main.InfoFragment"
+        android:label="@string/title_info"
+        tools:layout="@layout/fragment_info" />
 </navigation>

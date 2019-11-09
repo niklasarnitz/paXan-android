@@ -17,23 +17,36 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".setup.SetupFinishActivity"
+            android:theme="@style/AppThemeSetup"/>
+        <activity android:name=".setup.SetupPlanActivity"
+            android:theme="@style/AppThemeSetup"/>
+        <activity android:name=".setup.SetupNameActivity"
+            android:theme="@style/AppThemeSetup"/>
+        <activity android:name=".setup.SetupWelcomeActivity"
+            android:theme="@style/AppThemeSetup"/>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_android_map_api_key" />
+
         <activity android:name=".DictionaryActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swdec.paxan.MainActivity" />
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:launchMode="singleTop">
+            android:name=".SplashActivity"
+            android:theme="@style/AppThemeSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/setup_header"
+        android:gravity="bottom"
+        android:padding="?dialogPreferredPadding"
+        android:text="@string/setup_header"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/setup_card"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="?dialogPreferredPadding"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/setup_plan_summary"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_heimatlos"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_1" />
+
+                <Spinner
+                    android:id="@+id/plan_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:entries="@array/plan_spinner_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_2" />
+
+                <Spinner
+                    android:id="@+id/plan_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:entries="@array/plan_spinner_2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_heimweh"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:text="@string/plan_3" />
+
+                <Spinner
+                    android:id="@+id/plan_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="?dialogPreferredPadding"
+                    android:entries="@array/plan_spinner_3" />
+            </LinearLayout>
+        </ScrollView>
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="?dialogPreferredPadding"
+            android:text="@string/setup_continue" />
+    </RelativeLayout>
+</LinearLayout>
