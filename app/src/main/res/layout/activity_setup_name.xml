@@ -45,7 +45,7 @@
             android:layout_marginBottom="?dialogPreferredPadding"
             android:singleLine="true"
             android:hint="@string/setup_name_hint"
-            android:inputType="text"
+            android:inputType="textCapSentences"
             android:importantForAutofill="no" />
 
         <Button
