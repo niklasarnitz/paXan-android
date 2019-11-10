@@ -31,7 +31,6 @@ class HomeFragment : Fragment() {
 
     override fun onResume() {
         super.onResume()
-
         val prefs = PreferenceManager.getDefaultSharedPreferences(context!!)
         val defaultName = resources.getString(R.string.default_name)
         var name = prefs.getString("name", defaultName) ?:defaultName
