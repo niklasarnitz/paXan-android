@@ -20,9 +20,12 @@
         <item name="android:windowBackground">@drawable/splash</item>
     </style>
 
-    <style name="AppThemeSetup" parent="AppTheme.NoActionbar">
+    <style name="AppThemeSettings" parent="AppTheme.NoActionbar">
         <item name="android:windowBackground">?colorAccent</item>
         <item name="buttonStyle">@style/SetupButton</item>
+    </style>
+
+    <style name="AppThemeSetup" parent="AppThemeSettings">
         <item name="android:windowAnimationStyle">@style/AppThemeWindowTransition</item>
     </style>
 

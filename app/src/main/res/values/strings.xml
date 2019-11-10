@@ -4,6 +4,8 @@
     <string name="loading">Lade …</string>
     <string name="error">Fehler …</string>
 
+    <string name="default_name">Gast</string>
+
     <string name="setup_header">Setup</string>
     <string name="setup_welcome">Willkommen in der paXan App!</string>
     <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWDEC heißen wir dich herzlich Willkommen zu paXan 2020!</string>
@@ -16,6 +18,8 @@
     <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
     <string name="setup_continue">Weiter</string>
     <string name="setup_continue2">Fertig</string>
+
+    <string name="settings_header">Einstellungen</string>
 
     <string name="title_home">Mein paXan</string>
     <string name="title_plan">Seminarplan</string>

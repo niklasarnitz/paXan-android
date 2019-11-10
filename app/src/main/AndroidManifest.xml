@@ -17,6 +17,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".settings.SettingsPlanActivity"
+            android:theme="@style/AppThemeSettings"/>
+        <activity android:name=".settings.SettingsNameActivity"
+            android:theme="@style/AppThemeSettings"/>
         <activity android:name=".setup.SetupFinishActivity"
             android:theme="@style/AppThemeSetup"/>
         <activity android:name=".setup.SetupPlanActivity"
