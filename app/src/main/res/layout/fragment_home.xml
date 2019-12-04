@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/image"
         android:text="@string/home_title"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/titleTxt"
         android:text="@string/home_summary"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <Button
