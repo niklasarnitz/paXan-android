@@ -11,7 +11,7 @@ class DictionaryActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dictionary)
 
         val position = intent.getIntExtra("position", 0)
-        title = resources.getStringArray(R.array.dictionary_items)[position]
+        findViewById<TextView>(R.id.titleTxt).text = resources.getStringArray(R.array.dictionary_items)[position]
         findViewById<TextView>(R.id.textView).text = resources.getStringArray(R.array.dictionary_texts)[position]
     }
 }

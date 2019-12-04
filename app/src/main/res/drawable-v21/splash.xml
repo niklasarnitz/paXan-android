@@ -4,7 +4,5 @@
     <item android:drawable="@color/colorAccent"/>
     <item
         android:drawable="@drawable/ic_launcher_foreground"
-        android:gravity="center"
-        android:width="@dimen/splash_image_height"
-        android:height="@dimen/splash_image_height" />
+        android:gravity="center" />
 </layer-list>

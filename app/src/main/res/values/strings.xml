@@ -13,7 +13,7 @@
     <string name="setup_name_summary">Damit wir dich in der App etwas persönlicher ansprechen können, gib bitte im unteren Textfeld deinen Vornamen ein. Den speichern wir natürlich nur auf deinem Gerät.</string>
     <string name="setup_name_hint">Name</string>
     <string name="setup_plan">Deine paXan Seminare</string>
-    <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falsch du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
+    <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falls du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
     <string name="setup_finish">Und jetzt viel Spaß bei paXan!</string>
     <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
     <string name="setup_continue">Weiter</string>

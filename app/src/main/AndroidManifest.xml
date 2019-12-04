@@ -34,7 +34,9 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_android_map_api_key" />
 
-        <activity android:name=".DictionaryActivity">
+        <activity
+            android:name=".DictionaryActivity"
+            android:label="@string/title_dictionary">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swdec.paxan.MainActivity" />

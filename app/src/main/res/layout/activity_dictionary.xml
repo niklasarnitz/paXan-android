@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="?dialogPreferredPadding">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="?dialogPreferredPadding"
+            android:contentDescription="@null"
+            android:tint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_book" />
+
+        <TextView
+            android:id="@+id/titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="?dialogPreferredPadding"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="?dialogPreferredPadding"
+        android:background="#14000000" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
-</FrameLayout>
+        android:layout_height="match_parent"
+        android:padding="?dialogPreferredPadding"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+</LinearLayout>
