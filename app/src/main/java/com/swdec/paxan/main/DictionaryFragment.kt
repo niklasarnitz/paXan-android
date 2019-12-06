@@ -20,7 +20,7 @@ class DictionaryFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_dictionary, container, false)
+        val root = inflater.inflate(R.layout.fragment_main_dictionary, container, false)
         val listView: ListView = root.findViewById(R.id.listView)
         val values = resources.getStringArray(R.array.dictionary_items)
         val adapter = ArrayAdapter<String>(

@@ -23,7 +23,7 @@ class MapFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_map, container, false)
+        val root = inflater.inflate(R.layout.fragment_main_map, container, false)
         mapView = root.findViewById(R.id.mapView)
         mapView!!.onCreate(savedInstanceState)
         mapView!!.getMapAsync(this::setUpMaps)

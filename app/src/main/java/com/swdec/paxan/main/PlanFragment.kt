@@ -23,7 +23,7 @@ class PlanFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_plan, container, false)
+        val root = inflater.inflate(R.layout.fragment_main_plan, container, false)
         plan1 = root.findViewById(R.id.plan_1_txt)
         plan2 = root.findViewById(R.id.plan_2_txt)
         plan3 = root.findViewById(R.id.plan_3_txt)

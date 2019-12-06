@@ -14,7 +14,7 @@ class InfoFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_info, container, false)
+        val root = inflater.inflate(R.layout.fragment_main_info, container, false)
         return root
     }
 }
