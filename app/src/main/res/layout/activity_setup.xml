@@ -16,25 +16,19 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/setup_card"
-        android:orientation="vertical"
-        android:padding="?dialogPreferredPadding">
+        android:background="@drawable/setup_card">
 
-        <TextView
-            android:id="@+id/title"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:text="@string/setup_welcome"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/title"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:text="@string/setup_welcome_summary"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <LinearLayout
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="?dialogPreferredPadding" />
+        </ScrollView>
 
         <Button
             android:id="@+id/continueBtn"
@@ -43,7 +37,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
+            android:layout_margin="?dialogPreferredPadding"
             android:text="@string/setup_continue" />
     </RelativeLayout>
-
 </LinearLayout>
