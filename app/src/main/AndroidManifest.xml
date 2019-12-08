@@ -17,12 +17,50 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SetupActivity"
-            android:theme="@style/AppThemeSettings"/>
-        <activity android:name=".settings.SettingsPlanActivity"
-            android:theme="@style/AppThemeSettings"/>
-        <activity android:name=".settings.SettingsNameActivity"
-            android:theme="@style/AppThemeSettings"/>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/info_about">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swdec.paxan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".TimelineActivity"
+            android:label="@string/info_timeline">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swdec.paxan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".DonateActivity"
+            android:label="@string/info_donate">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swdec.paxan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SeminarsActivity"
+            android:label="@string/info_seminars">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swdec.paxan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpeakersActivity"
+            android:label="@string/info_speakers">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swdec.paxan.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SetupActivity"
+            android:theme="@style/AppThemeSettings" />
+        <activity
+            android:name=".settings.SettingsPlanActivity"
+            android:theme="@style/AppThemeSettings" />
+        <activity
+            android:name=".settings.SettingsNameActivity"
+            android:theme="@style/AppThemeSettings" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
