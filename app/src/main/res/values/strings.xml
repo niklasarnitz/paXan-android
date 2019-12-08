@@ -78,4 +78,12 @@
     <string name="info_donate">Spenden</string>
     <string name="info_timeline">Zeitplan</string>
     <string name="info_about">Über</string>
+
+    <string name="seminar_detail_placeholder">Placeholder</string>
+
+    <string name="seminar_detail_title">Seminar</string>
+    <string name="seminar_detail_speaker">Referent: %1$s</string>
+    <string name="seminar_detail_room">Raum: %1$s</string>
+    <string name="seminar_detail_description">Beschreibung: %1$s</string>
+    <string name="seminar_detail_navigate">Navigieren</string>
 </resources>

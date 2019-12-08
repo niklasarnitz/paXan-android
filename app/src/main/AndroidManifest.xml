@@ -18,6 +18,13 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity
+            android:name=".SeminarDetailActivity"
+            android:label="@string/seminar_detail_title">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.swdec.paxan.MainActivity" />
+        </activity>
+        <activity
             android:name=".AboutActivity"
             android:label="@string/info_about">
             <meta-data
