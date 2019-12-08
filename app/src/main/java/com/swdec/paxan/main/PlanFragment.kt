@@ -6,10 +6,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
 import com.swdec.paxan.R
 import android.widget.TextView
 import androidx.preference.PreferenceManager
+import com.swdec.paxan.SeminarDetailActivity
 import com.swdec.paxan.settings.SettingsPlanActivity
 
 class PlanFragment : Fragment() {
@@ -23,10 +25,19 @@ class PlanFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_plan, container, false)
+        val root = inflater.inflate(R.layout.fragment_main_plan, container, false)
         plan1 = root.findViewById(R.id.plan_1_txt)
         plan2 = root.findViewById(R.id.plan_2_txt)
         plan3 = root.findViewById(R.id.plan_3_txt)
+        root.findViewById<LinearLayout>(R.id.plan_1_click).setOnClickListener {
+            startActivity(Intent(context, SeminarDetailActivity::class.java))
+        }
+        root.findViewById<LinearLayout>(R.id.plan_2_click).setOnClickListener {
+            startActivity(Intent(context, SeminarDetailActivity::class.java))
+        }
+        root.findViewById<LinearLayout>(R.id.plan_3_click).setOnClickListener {
+            startActivity(Intent(context, SeminarDetailActivity::class.java))
+        }
         root.findViewById<Button>(R.id.planBtn).setOnClickListener {
             startActivity(Intent(context, SettingsPlanActivity::class.java))
         }

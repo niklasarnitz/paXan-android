@@ -16,8 +16,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/setup_card"
-        android:orientation="vertical">
+        android:background="@drawable/setup_card">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -26,75 +25,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="?dialogPreferredPadding"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:padding="?dialogPreferredPadding">
 
-                <TextView
+                <fragment
+                    android:id="@+id/root"
+                    android:name="com.swdec.paxan.setup.PlanFragment"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/setup_plan"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/setup_plan_summary"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/plan_heimatlos"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/plan_1" />
-
-                <Spinner
-                    android:id="@+id/plan_1"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:entries="@array/plan_spinner_1" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/plan_2" />
-
-                <Spinner
-                    android:id="@+id/plan_2"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:entries="@array/plan_spinner_2" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/plan_heimweh"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:text="@string/plan_3" />
-
-                <Spinner
-                    android:id="@+id/plan_3"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="?dialogPreferredPadding"
-                    android:entries="@array/plan_spinner_3" />
+                    android:layout_height="wrap_content" />
             </LinearLayout>
         </ScrollView>
 

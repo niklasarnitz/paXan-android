@@ -72,4 +72,18 @@
         <item>Das Freizeitzentrum des SWDEC im schönen Ort Dobel, ist das Haupt-Schulungszentrum des SWDEC-Jugendverbandes.</item>
         <item>In der Sporthalle finden die Hauptsächlichen Events von paXan statt.</item>
     </string-array>
+
+    <string name="info_speakers">Referenten</string>
+    <string name="info_seminars">Seminare</string>
+    <string name="info_donate">Spenden</string>
+    <string name="info_timeline">Zeitplan</string>
+    <string name="info_about">Über</string>
+
+    <string name="seminar_detail_placeholder">Placeholder</string>
+
+    <string name="seminar_detail_title">Seminar</string>
+    <string name="seminar_detail_speaker">Referent: %1$s</string>
+    <string name="seminar_detail_room">Raum: %1$s</string>
+    <string name="seminar_detail_description">Beschreibung: %1$s</string>
+    <string name="seminar_detail_navigate">Navigieren</string>
 </resources>

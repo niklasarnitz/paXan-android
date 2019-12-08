@@ -8,29 +8,29 @@
         android:id="@+id/navigation_home"
         android:name="com.swdec.paxan.main.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_main_home" />
 
     <fragment
         android:id="@+id/navigation_plan"
         android:name="com.swdec.paxan.main.PlanFragment"
         android:label="@string/title_plan"
-        tools:layout="@layout/fragment_plan" />
+        tools:layout="@layout/fragment_main_plan" />
 
     <fragment
         android:id="@+id/navigation_map"
         android:name="com.swdec.paxan.main.MapFragment"
         android:label="@string/title_map"
-        tools:layout="@layout/fragment_map" />
+        tools:layout="@layout/fragment_main_map" />
 
     <fragment
         android:id="@+id/navigation_dictionary"
         android:name="com.swdec.paxan.main.DictionaryFragment"
         android:label="@string/title_dictionary"
-        tools:layout="@layout/fragment_dictionary" />
+        tools:layout="@layout/fragment_main_dictionary" />
 
     <fragment
         android:id="@+id/navigation_info"
         android:name="com.swdec.paxan.main.InfoFragment"
         android:label="@string/title_info"
-        tools:layout="@layout/fragment_info" />
+        tools:layout="@layout/fragment_main_info" />
 </navigation>

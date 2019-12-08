@@ -16,37 +16,25 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/setup_card"
-        android:orientation="vertical"
-        android:padding="?dialogPreferredPadding">
+        android:background="@drawable/setup_card">
 
-        <TextView
-            android:id="@+id/title"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:text="@string/setup_name"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/summary"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/title"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:text="@string/setup_name_summary"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="?dialogPreferredPadding">
 
-        <EditText
-            android:id="@+id/nameTxt"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/summary"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:singleLine="true"
-            android:hint="@string/setup_name_hint"
-            android:inputType="textCapSentences"
-            android:importantForAutofill="no" />
+                <fragment
+                    android:id="@+id/root"
+                    android:name="com.swdec.paxan.setup.NameFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
 
         <Button
             android:id="@+id/continueBtn"
@@ -55,7 +43,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
+            android:layout_margin="?dialogPreferredPadding"
             android:text="@string/setup_continue2" />
     </RelativeLayout>
-
 </LinearLayout>

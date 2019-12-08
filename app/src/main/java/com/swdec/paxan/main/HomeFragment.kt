@@ -21,7 +21,7 @@ class HomeFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val root = inflater.inflate(R.layout.fragment_home, container, false)
+        val root = inflater.inflate(R.layout.fragment_main_home, container, false)
         titleTxt = root.findViewById(R.id.titleTxt)
         root.findViewById<Button>(R.id.nameBtn).setOnClickListener {
             startActivity(Intent(context, SettingsNameActivity::class.java))
