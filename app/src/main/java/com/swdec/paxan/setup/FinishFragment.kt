@@ -18,8 +18,8 @@ class FinishFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_setup_finish, container, false)
     }
 
-    override fun onDestroyView() {
-        super.onDestroyView()
+    override fun onPause() {
+        super.onPause()
         PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean("setup_complete", true).apply()
     }
 }
