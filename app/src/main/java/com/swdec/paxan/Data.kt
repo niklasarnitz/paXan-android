@@ -6,7 +6,6 @@ import com.android.volley.Request
 import com.android.volley.Response
 import com.android.volley.toolbox.JsonArrayRequest
 import com.android.volley.toolbox.Volley
-import org.json.JSONException
 
 class Data(context: Context) {
 
@@ -31,11 +30,7 @@ class Data(context: Context) {
             Response.Listener { response ->
                 var titles: Array<String> = arrayOf()
                 for (i in 0 until response.length()) {
-                    try {
-                        titles += response.getJSONObject(i).getString("title")
-                    } catch (e: JSONException) {
-                        Log.e(LOG_TAG, e.toString())
-                    }
+                    titles += response.getJSONObject(i).getString("title")
                 }
                 callback.onTitlesLoaded(c, titles)
             },
@@ -56,6 +51,55 @@ class Data(context: Context) {
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
                 callback.onEntryLoaded(c, error, error)
+            }
+        )
+        queue.add(jsonObjectRequest)
+    }
+
+    interface SpeakerCallback {
+        fun onTitlesLoaded(
+            context: Context,
+            titles: Array<String>
+        )
+        fun onEntryLoaded(
+            context: Context,
+            title: String,
+            organisation: String,
+            website: String
+        )
+    }
+
+    fun loadSpeakerTitles(callback: SpeakerCallback) {
+        val jsonObjectRequest = JsonArrayRequest(Request.Method.GET, URL + "speaker", null,
+            Response.Listener { response ->
+                var titles: Array<String> = arrayOf()
+                for (i in 0 until response.length()) {
+                    titles += response.getJSONObject(i).getString("name")
+                }
+                callback.onTitlesLoaded(c, titles)
+            },
+            Response.ErrorListener { e ->
+                Log.e(LOG_TAG, e.toString())
+                callback.onTitlesLoaded(c, arrayOf(error))
+            }
+        )
+        queue.add(jsonObjectRequest)
+    }
+
+    fun loadSpeakerEntry(callback: SpeakerCallback, index: Int) {
+        val jsonObjectRequest = JsonArrayRequest(Request.Method.GET, URL + "speaker", null,
+            Response.Listener { response ->
+                val jsonObject =  response.getJSONObject(index)
+                callback.onEntryLoaded(
+                    c,
+                    jsonObject.getString("name"),
+                    jsonObject.getString("connection"),
+                    jsonObject.getString("website")
+                )
+            },
+            Response.ErrorListener { e ->
+                Log.e(LOG_TAG, e.toString())
+                callback.onEntryLoaded(c, error, error, error)
             }
         )
         queue.add(jsonObjectRequest)
