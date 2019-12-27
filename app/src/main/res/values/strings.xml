@@ -22,9 +22,9 @@
     <string name="settings_header">Einstellungen</string>
 
     <string name="title_home">Mein paXan</string>
-    <string name="title_plan">Seminarplan</string>
+    <string name="title_plan">Programm</string>
     <string name="title_map">Karte</string>
-    <string name="title_dictionary">Lexikon</string>
+    <string name="title_dictionary">A-Z</string>
     <string name="title_info">Infos</string>
 
     <string name="home_image_alt">Silhouette eines Menschen</string>
@@ -86,6 +86,10 @@
     <string name="seminar_detail_room">Raum: %1$s</string>
     <string name="seminar_detail_description">Beschreibung: %1$s</string>
     <string name="seminar_detail_navigate">Navigieren</string>
+
+    <string name="speaker_detail_title">Referent</string>
+    <string name="speaker_detail_organisation">Organisation: %1$s</string>
+    <string name="speaker_detail_website">Website: %1$s</string>
 
     <string-array name="dummy_array">
         <item>lorem ipsum</item>

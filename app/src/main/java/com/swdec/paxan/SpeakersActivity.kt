@@ -1,5 +1,6 @@
 package com.swdec.paxan
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
@@ -22,7 +23,7 @@ class SpeakersActivity : AppCompatActivity() {
         )
         listView.adapter = adapter
         listView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
-            //startActivity(Intent(this, SpeakerDetailActivity::class.java).putExtra("position", position))
+            startActivity(Intent(this, SpeakerDetailActivity::class.java).putExtra("position", position))
         }
     }
 }

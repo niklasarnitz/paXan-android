@@ -11,8 +11,8 @@ android {
         applicationId "com.swdec.paxan"
         minSdkVersion 15
         targetSdkVersion 29
-        versionCode 3
-        versionName "0.0.3-alpha-android"
+        versionCode 4
+        versionName "0.0.4-alpha-android"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
