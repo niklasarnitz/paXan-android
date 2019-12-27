@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">paXan</string>
 
-    <string name="loading">Lade …</string>
+    <string name="loading">Lädt …</string>
     <string name="error">Fehler …</string>
 
     <string name="default_name">Gast</string>
@@ -24,7 +24,7 @@
     <string name="title_home">Mein paXan</string>
     <string name="title_plan">Programm</string>
     <string name="title_map">Karte</string>
-    <string name="title_dictionary">A-Z</string>
+    <string name="title_dictionary">Lexikon</string>
     <string name="title_info">Infos</string>
 
     <string name="home_image_alt">Silhouette eines Menschen</string>
@@ -32,11 +32,33 @@
     <string name="home_summary">paXan startet bald!\nDann kannst du die App benutzen</string>
     <string name="home_change_name">Name ändern</string>
 
+    <string name="plan_thursday">Donnerstag, 09. April 2020</string>
+    <string name="plan_heimatkunde">#heimatkunde</string>
+    <string name="plan_09_1930">19:30 Uhr\npaX an Start\nBibel Session mit Joachim Böker</string>
+    <string name="plan_09_2200">22:00 Uhr\nDarum feiern</string>
+    <string name="plan_friday">Freitag, 10. April 2020</string>
     <string name="plan_heimatlos">#heimatlos</string>
+    <string name="plan_10_0930">09:30 Uhr\nPraxis Session\nCoffeeTime</string>
+    <string name="plan_10_1130">11:30 Uhr\nBibel Session mit Klaus Göttler</string>
+    <string name="plan_1">15:00 Uhr\nSeminar 1</string>
+    <string name="plan_2">16:30 Uhr\nSeminar 2</string>
+    <string name="plan_10_1930">19:30\nUhr Das Kreuz</string>
+    <string name="plan_saturday">Samstag, 11. April 2020</string>
     <string name="plan_heimweh">#heimweh</string>
-    <string name="plan_1">Seminar 1</string>
-    <string name="plan_2">Seminar 2</string>
-    <string name="plan_3">Seminar 3</string>
+    <string name="plan_11_0930">09:30 Uhr\nBibel Session mit Joachim Böker</string>
+    <string name="plan_11_1130">11:30 Uhr\nDennoch feiern</string>
+    <string name="plan_11_1400">14:00 Uhr\nPraxis Session\nCoffeeTime</string>
+    <string name="plan_3">16:30 Uhr\nSeminar 3</string>
+    <string name="plan_11_1930">19:30 Uhr\nDanke </string>
+    <string name="plan_sunday">Sonntag, 12. April 2020</string>
+    <string name="plan_heimweg">#heimweg</string>
+    <string name="plan_12_0930">09:30 Uhr\nBibel Session mit Volker Gäckle</string>
+    <string name="plan_12_1400">14:00 Uhr\nPraxis Session\nCoffeeTime</string>
+    <string name="plan_12_1630">16:30 Uhr\nTrainings Session</string>
+    <string name="plan_12_1930">19:30 Uhr\nDELTA Endlos feiern</string>
+    <string name="plan_monday">Montag, 13. April 2020</string>
+    <string name="plan_heimatgeber">#heimatgeber</string>
+    <string name="plan_13_0930">09:30 Uhr\nAbschluss-Session\npaX an Finale</string>
     <string name="plan_change_plan">Seminare ändern</string>
 
     <string-array name="plan_spinner_1">
