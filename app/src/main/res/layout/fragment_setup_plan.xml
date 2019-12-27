@@ -29,27 +29,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/plan_1" />
+        android:text="@string/setup_plan_1" />
 
     <Spinner
         android:id="@+id/plan_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:entries="@array/plan_spinner_1" />
+        android:entries="@array/plan_spinner_loading" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/plan_2" />
+        android:text="@string/setup_plan_2" />
 
     <Spinner
         android:id="@+id/plan_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:entries="@array/plan_spinner_2" />
+        android:entries="@array/plan_spinner_loading" />
 
     <TextView
         android:layout_width="match_parent"
@@ -62,12 +62,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/plan_3" />
+        android:text="@string/setup_plan_3" />
 
     <Spinner
         android:id="@+id/plan_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:entries="@array/plan_spinner_3" />
+        android:entries="@array/plan_spinner_loading" />
 </LinearLayout>

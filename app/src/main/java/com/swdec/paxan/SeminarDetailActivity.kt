@@ -15,8 +15,14 @@ class SeminarDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_seminar_detail)
 
-        val position = intent.getIntExtra("position", 0)
-        Data(this).loadSeminarEntry(requestCallback, position)
+        val data = Data(this)
+        val position = intent.getIntExtra("position", -1)
+        if (position == -1) {
+            val title = intent.getStringExtra("title") ?: ""
+            data.loadSeminarEntryByTitle(requestCallback, title)
+        } else {
+            data.loadSeminarEntry(requestCallback, position)
+        }
     }
 
 

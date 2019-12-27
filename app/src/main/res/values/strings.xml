@@ -14,6 +14,9 @@
     <string name="setup_name_hint">Name</string>
     <string name="setup_plan">Deine paXan Seminare</string>
     <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falls du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
+    <string name="setup_plan_1">Seminar 1</string>
+    <string name="setup_plan_2">Seminar 2</string>
+    <string name="setup_plan_3">Seminar 3</string>
     <string name="setup_finish">Und jetzt viel Spaß bei paXan!</string>
     <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
     <string name="setup_continue">Weiter</string>
@@ -61,22 +64,8 @@
     <string name="plan_13_0930">09:30 Uhr\nAbschluss-Session\npaX an Finale</string>
     <string name="plan_change_plan">Seminare ändern</string>
 
-    <string-array name="plan_spinner_1">
-        <item>Nichts ausgewählt</item>
-        <item>Echt Mann sein</item>
-        <item>Echt Frau sein</item>
-    </string-array>
-
-    <string-array name="plan_spinner_2">
-        <item>Nichts ausgewählt</item>
-        <item>Öffentlichkeitsarbeit</item>
-        <item>Flaggenworship für Anfänger</item>
-    </string-array>
-
-    <string-array name="plan_spinner_3">
-        <item>Nichts ausgewählt</item>
-        <item>Generation Worship</item>
-        <item>Technik - Ein Mittel zum Zweck?</item>
+    <string-array name="plan_spinner_loading">
+        <item>Lädt …</item>
     </string-array>
 
     <string name="info_speakers">Referenten</string>
