@@ -105,6 +105,61 @@ class Data(context: Context) {
         queue.add(jsonObjectRequest)
     }
 
+    interface SeminarCallback {
+        fun onTitlesLoaded(
+            context: Context,
+            titles: Array<String>
+        )
+        fun onEntryLoaded(
+            context: Context,
+            title: String,
+            speaker: String,
+            room: String,
+            description: String,
+            lat: String,
+            long: String
+        )
+    }
+
+    fun loadSeminarTitles(callback: SeminarCallback) {
+        val jsonObjectRequest = JsonArrayRequest(Request.Method.GET, URL + "seminar", null,
+            Response.Listener { response ->
+                var titles: Array<String> = arrayOf()
+                for (i in 0 until response.length()) {
+                    titles += response.getJSONObject(i).getString("title")
+                }
+                callback.onTitlesLoaded(c, titles)
+            },
+            Response.ErrorListener { e ->
+                Log.e(LOG_TAG, e.toString())
+                callback.onTitlesLoaded(c, arrayOf(error))
+            }
+        )
+        queue.add(jsonObjectRequest)
+    }
+
+    fun loadSeminarEntry(callback: SeminarCallback, index: Int) {
+        val jsonObjectRequest = JsonArrayRequest(Request.Method.GET, URL + "seminar", null,
+            Response.Listener { response ->
+                val jsonObject =  response.getJSONObject(index)
+                callback.onEntryLoaded(
+                    c,
+                    jsonObject.getString("title"),
+                    jsonObject.getString("referentName"),
+                    jsonObject.getString("roomname"),
+                    jsonObject.getString("description"),
+                    jsonObject.getString("lat"),
+                    jsonObject.getString("long")
+                )
+            },
+            Response.ErrorListener { e ->
+                Log.e(LOG_TAG, e.toString())
+                callback.onEntryLoaded(c, error, error, error, error, error, error)
+            }
+        )
+        queue.add(jsonObjectRequest)
+    }
+
     companion object {
         private const val URL = "http://app.swdec.de/paxan/"
         private const val LOG_TAG = "Volley"

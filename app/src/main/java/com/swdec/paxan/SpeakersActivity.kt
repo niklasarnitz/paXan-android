@@ -31,7 +31,7 @@ class SpeakersActivity : AppCompatActivity() {
         override fun onTitlesLoaded(context: Context, titles: Array<String>) {
             val adapter = ArrayAdapter<String>(
                 context,
-                R.layout.list_item_dictionary,
+                R.layout.list_item_speakers,
                 R.id.text1,
                 titles
             )

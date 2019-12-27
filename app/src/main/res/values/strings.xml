@@ -85,30 +85,13 @@
     <string name="info_timeline">Zeitplan</string>
     <string name="info_about">Über</string>
 
-    <string name="seminar_detail_placeholder">Placeholder</string>
-
     <string name="seminar_detail_title">Seminar</string>
     <string name="seminar_detail_speaker">Referent: %1$s</string>
     <string name="seminar_detail_room">Raum: %1$s</string>
-    <string name="seminar_detail_description">Beschreibung: %1$s</string>
+    <string name="seminar_detail_description">Beschreibung:\n%1$s</string>
     <string name="seminar_detail_navigate">Navigieren</string>
 
     <string name="speaker_detail_title">Referent</string>
     <string name="speaker_detail_organisation">Organisation: %1$s</string>
     <string name="speaker_detail_website">Website: %1$s</string>
-
-    <string-array name="dummy_array">
-        <item>lorem ipsum</item>
-        <item>dolor sit</item>
-        <item>amet consetetur</item>
-        <item>sadipscing elitr</item>
-        <item>sed diam</item>
-        <item>nonumy eirmod</item>
-        <item>tempor invidunt</item>
-        <item>ut labore</item>
-        <item>et dolore</item>
-        <item>magna aliquyam</item>
-        <item>erat sed</item>
-        <item>diam voluptua</item>
-    </string-array>
 </resources>
