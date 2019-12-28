@@ -19,6 +19,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="?dialogPreferredPadding"
             android:gravity="center"
+            android:text="@string/loading"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
     <View

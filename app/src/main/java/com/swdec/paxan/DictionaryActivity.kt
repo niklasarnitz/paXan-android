@@ -1,5 +1,6 @@
 package com.swdec.paxan
 
+import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
@@ -11,7 +12,14 @@ class DictionaryActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dictionary)
 
         val position = intent.getIntExtra("position", 0)
-        findViewById<TextView>(R.id.titleTxt).text = resources.getStringArray(R.array.dictionary_items)[position]
-        findViewById<TextView>(R.id.textView).text = resources.getStringArray(R.array.dictionary_texts)[position]
+        Data(this).loadDictionaryEntry(requestCallback, position)
+    }
+
+    private val requestCallback = object : Data.DictionaryCallback {
+        override fun onTitlesLoaded(context: Context, titles: Array<String>) {}
+        override fun onEntryLoaded(context: Context, title: String, description: String) {
+            findViewById<TextView>(R.id.titleTxt).text = title
+            findViewById<TextView>(R.id.textView).text = description
+        }
     }
 }

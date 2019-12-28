@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">paXan</string>
 
-    <string name="loading">Lade …</string>
+    <string name="loading">Lädt …</string>
     <string name="error">Fehler …</string>
 
     <string name="default_name">Gast</string>
@@ -14,6 +14,9 @@
     <string name="setup_name_hint">Name</string>
     <string name="setup_plan">Deine paXan Seminare</string>
     <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falls du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
+    <string name="setup_plan_1">Seminar 1</string>
+    <string name="setup_plan_2">Seminar 2</string>
+    <string name="setup_plan_3">Seminar 3</string>
     <string name="setup_finish">Und jetzt viel Spaß bei paXan!</string>
     <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
     <string name="setup_continue">Weiter</string>
@@ -22,55 +25,47 @@
     <string name="settings_header">Einstellungen</string>
 
     <string name="title_home">Mein paXan</string>
-    <string name="title_plan">Seminarplan</string>
+    <string name="title_plan">Programm</string>
     <string name="title_map">Karte</string>
     <string name="title_dictionary">Lexikon</string>
     <string name="title_info">Infos</string>
 
     <string name="home_image_alt">Silhouette eines Menschen</string>
     <string name="home_title">Hallo, %1$s!</string>
-    <string name="home_summary">paXan startet in x Tagen!\nDann kannst du die App benutzen</string>
+    <string name="home_summary">paXan startet bald!\nDann kannst du die App benutzen</string>
     <string name="home_change_name">Name ändern</string>
 
+    <string name="plan_thursday">Donnerstag, 09. April 2020</string>
+    <string name="plan_heimatkunde">#heimatkunde</string>
+    <string name="plan_09_1930">19:30 Uhr\npaX an Start\nBibel Session mit Joachim Böker</string>
+    <string name="plan_09_2200">22:00 Uhr\nDarum feiern</string>
+    <string name="plan_friday">Freitag, 10. April 2020</string>
     <string name="plan_heimatlos">#heimatlos</string>
+    <string name="plan_10_0930">09:30 Uhr\nPraxis Session\nCoffeeTime</string>
+    <string name="plan_10_1130">11:30 Uhr\nBibel Session mit Klaus Göttler</string>
+    <string name="plan_1">15:00 Uhr\nSeminar 1</string>
+    <string name="plan_2">16:30 Uhr\nSeminar 2</string>
+    <string name="plan_10_1930">19:30\nUhr Das Kreuz</string>
+    <string name="plan_saturday">Samstag, 11. April 2020</string>
     <string name="plan_heimweh">#heimweh</string>
-    <string name="plan_1">Seminar 1</string>
-    <string name="plan_2">Seminar 2</string>
-    <string name="plan_3">Seminar 3</string>
+    <string name="plan_11_0930">09:30 Uhr\nBibel Session mit Joachim Böker</string>
+    <string name="plan_11_1130">11:30 Uhr\nDennoch feiern</string>
+    <string name="plan_11_1400">14:00 Uhr\nPraxis Session\nCoffeeTime</string>
+    <string name="plan_3">16:30 Uhr\nSeminar 3</string>
+    <string name="plan_11_1930">19:30 Uhr\nDanke </string>
+    <string name="plan_sunday">Sonntag, 12. April 2020</string>
+    <string name="plan_heimweg">#heimweg</string>
+    <string name="plan_12_0930">09:30 Uhr\nBibel Session mit Volker Gäckle</string>
+    <string name="plan_12_1400">14:00 Uhr\nPraxis Session\nCoffeeTime</string>
+    <string name="plan_12_1630">16:30 Uhr\nTrainings Session</string>
+    <string name="plan_12_1930">19:30 Uhr\nDELTA Endlos feiern</string>
+    <string name="plan_monday">Montag, 13. April 2020</string>
+    <string name="plan_heimatgeber">#heimatgeber</string>
+    <string name="plan_13_0930">09:30 Uhr\nAbschluss-Session\npaX an Finale</string>
     <string name="plan_change_plan">Seminare ändern</string>
 
-    <string-array name="plan_spinner_1">
-        <item>Nichts ausgewählt</item>
-        <item>Echt Mann sein</item>
-        <item>Echt Frau sein</item>
-    </string-array>
-
-    <string-array name="plan_spinner_2">
-        <item>Nichts ausgewählt</item>
-        <item>Öffentlichkeitsarbeit</item>
-        <item>Flaggenworship für Anfänger</item>
-    </string-array>
-
-    <string-array name="plan_spinner_3">
-        <item>Nichts ausgewählt</item>
-        <item>Generation Worship</item>
-        <item>Technik - Ein Mittel zum Zweck?</item>
-    </string-array>
-
-    <string-array name="dictionary_items">
-        <item>paXan</item>
-        <item>Jesus</item>
-        <item>SWDEC</item>
-        <item>FSZ-Dobel</item>
-        <item>Sporthalle</item>
-    </string-array>
-
-    <string-array name="dictionary_texts">
-        <item>paXan ist ein Mitarbeiterkongress des SWDEC</item>
-        <item>Gottes Sohn, Retter aller, welche an ihn glauben</item>
-        <item>Der SWDEC ist ein Unterverband der Weltweiten EC-Bewegung.\nEs is ein Verband christlicher Jugendarbeiten, bei denen Jesus Christus im Mittelpunkt des Lebens der Mitglieder und der Gemeinden steht.\nDer SWDEC arbeitet ebenfalls eng mit den Liebenzeller Gemeinschaften und der Evangelischen Landeskirche zusammen.</item>
-        <item>Das Freizeitzentrum des SWDEC im schönen Ort Dobel, ist das Haupt-Schulungszentrum des SWDEC-Jugendverbandes.</item>
-        <item>In der Sporthalle finden die Hauptsächlichen Events von paXan statt.</item>
+    <string-array name="plan_spinner_loading">
+        <item>Lädt …</item>
     </string-array>
 
     <string name="info_speakers">Referenten</string>
@@ -79,11 +74,13 @@
     <string name="info_timeline">Zeitplan</string>
     <string name="info_about">Über</string>
 
-    <string name="seminar_detail_placeholder">Placeholder</string>
-
     <string name="seminar_detail_title">Seminar</string>
     <string name="seminar_detail_speaker">Referent: %1$s</string>
     <string name="seminar_detail_room">Raum: %1$s</string>
-    <string name="seminar_detail_description">Beschreibung: %1$s</string>
+    <string name="seminar_detail_description">Beschreibung:\n%1$s</string>
     <string name="seminar_detail_navigate">Navigieren</string>
+
+    <string name="speaker_detail_title">Referent</string>
+    <string name="speaker_detail_organisation">Organisation: %1$s</string>
+    <string name="speaker_detail_website">Website: %1$s</string>
 </resources>
