@@ -31,7 +31,7 @@ class MapFragment : Fragment() {
     }
 
     private fun setUpMaps(googleMap: GoogleMap) {
-        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(48.796355, 8.503494), 18F))
+        googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(LatLng(48.796355, 8.503494), 18.5F))
         googleMap.uiSettings.isMyLocationButtonEnabled = false
         if (ActivityCompat.checkSelfPermission(
                 context!!,
