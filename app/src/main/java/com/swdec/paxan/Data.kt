@@ -147,9 +147,9 @@ class Data(context: Context) {
         fun onEntryLoaded(
             context: Context,
             title: String,
+            subtitle: String,
             speaker: String,
             room: String,
-            description: String,
             lat: String,
             long: String
         )
@@ -225,9 +225,9 @@ class Data(context: Context) {
         callback.onEntryLoaded(
             c,
             jsonObject.getString("title"),
+            jsonObject.getString("subtitle"),
             jsonObject.getString("referentName"),
             jsonObject.getString("roomname"),
-            jsonObject.getString("description"),
             jsonObject.getString("lat"),
             jsonObject.getString("long")
         )
@@ -256,9 +256,9 @@ class Data(context: Context) {
                 callback.onEntryLoaded(
                     c,
                     jsonObject.getString("title"),
+                    jsonObject.getString("subtitle"),
                     jsonObject.getString("referentName"),
                     jsonObject.getString("roomname"),
-                    jsonObject.getString("description"),
                     jsonObject.getString("lat"),
                     jsonObject.getString("long")
                 )

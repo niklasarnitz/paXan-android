@@ -31,16 +31,16 @@ class SeminarDetailActivity : AppCompatActivity() {
         override fun onEntryLoaded(
             context: Context,
             title: String,
+            subtitle: String,
             speaker: String,
             room: String,
-            description: String,
             lat: String,
             long: String
         ) {
             findViewById<TextView>(R.id.titleTxt).text = title
+            findViewById<TextView>(R.id.subtitle).text = subtitle
             findViewById<TextView>(R.id.speaker).text = resources.getString(R.string.seminar_detail_speaker, speaker)
             findViewById<TextView>(R.id.room).text = resources.getString(R.string.seminar_detail_room, room)
-            findViewById<TextView>(R.id.description).text = resources.getString(R.string.seminar_detail_description, description)
             findViewById<Button>(R.id.navigateBtn).setOnClickListener {
                 val gmmIntentUri: Uri =
                     Uri.parse("google.navigation:q=$lat,$long&mode=w")

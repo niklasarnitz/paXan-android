@@ -69,7 +69,6 @@
     <string name="seminar_detail_title">Seminar</string>
     <string name="seminar_detail_speaker">Referent: %1$s</string>
     <string name="seminar_detail_room">Raum: %1$s</string>
-    <string name="seminar_detail_description">Beschreibung:\n%1$s</string>
     <string name="seminar_detail_navigate">Navigieren</string>
 
     <string name="speaker_detail_title">Referent</string>
