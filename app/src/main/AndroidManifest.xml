@@ -49,13 +49,6 @@
                 android:value="com.swdec.paxan.MainActivity" />
         </activity>
         <activity
-            android:name=".DonateActivity"
-            android:label="@string/info_donate">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.swdec.paxan.MainActivity" />
-        </activity>
-        <activity
             android:name=".SeminarsActivity"
             android:label="@string/info_seminars">
             <meta-data

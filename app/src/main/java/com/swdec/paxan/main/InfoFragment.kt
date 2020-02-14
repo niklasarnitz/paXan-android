@@ -1,6 +1,7 @@
 package com.swdec.paxan.main
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -24,7 +25,7 @@ class InfoFragment : Fragment() {
             startActivity(Intent(context, SeminarsActivity::class.java))
         }
         root.findViewById<Button>(R.id.donate).setOnClickListener {
-            startActivity(Intent(context, DonateActivity::class.java))
+            startActivity(Intent(Intent.ACTION_VIEW, Uri.parse("https://www.swdec.de/spenden/")))
         }
         root.findViewById<Button>(R.id.quarters).setOnClickListener {
             startActivity(Intent(context, QuartersActivity::class.java))
