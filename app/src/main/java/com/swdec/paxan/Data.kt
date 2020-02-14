@@ -83,7 +83,8 @@ class Data(context: Context) {
             context: Context,
             title: String,
             organisation: String,
-            website: String
+            website: String,
+            description: String
         )
     }
 
@@ -117,7 +118,8 @@ class Data(context: Context) {
             c,
             jsonObject.getString("name"),
             jsonObject.getString("connection"),
-            jsonObject.getString("website")
+            jsonObject.getString("website"),
+            jsonObject.getString("description")
         )
     }
 
@@ -130,7 +132,7 @@ class Data(context: Context) {
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
                 val cache = prefs.getString("cache_speaker", "")
-                if (cache == "") callback.onEntryLoaded(c, error, error, error)
+                if (cache == "") callback.onEntryLoaded(c, error, error, error, error)
                 else processToSpeakerEntry(callback, JSONArray(cache), index)
             }
         )

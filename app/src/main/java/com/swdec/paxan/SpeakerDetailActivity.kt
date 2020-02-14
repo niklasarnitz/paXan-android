@@ -21,11 +21,13 @@ class SpeakerDetailActivity : AppCompatActivity() {
             context: Context,
             title: String,
             organisation: String,
-            website: String
+            website: String,
+            description: String
         ) {
             findViewById<TextView>(R.id.titleTxt).text = title
             findViewById<TextView>(R.id.organisation).text = context.resources.getString(R.string.speaker_detail_organisation, organisation)
             findViewById<TextView>(R.id.website).text = context.resources.getString(R.string.speaker_detail_website, website)
+            findViewById<TextView>(R.id.description).text = context.resources.getString(R.string.speaker_detail_description, description)
         }
     }
 }

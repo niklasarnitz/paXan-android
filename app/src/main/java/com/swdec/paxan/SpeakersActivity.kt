@@ -45,7 +45,8 @@ class SpeakersActivity : AppCompatActivity() {
             context: Context,
             title: String,
             organisation: String,
-            website: String
+            website: String,
+            description: String
         ) {}
     }
 }
