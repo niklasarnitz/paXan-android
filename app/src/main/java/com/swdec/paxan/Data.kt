@@ -45,7 +45,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_lexikon", "")
+                val cache = prefs.getString("cache_lexikon", DataFallback.lexikon)
                 if (cache == "") callback.onTitlesLoaded(c, arrayOf(error))
                 else processToDictionaryTitles(callback, JSONArray(cache))
             }
@@ -66,7 +66,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_lexikon", "")
+                val cache = prefs.getString("cache_lexikon", DataFallback.lexikon)
                 if (cache == "") callback.onEntryLoaded(c, error, error)
                 else processToDictionaryEntry(callback, JSONArray(cache), index)
             }
@@ -104,7 +104,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_speaker", "")
+                val cache = prefs.getString("cache_speaker", DataFallback.speaker)
                 if (cache == "") callback.onTitlesLoaded(c, arrayOf(error))
                 else processToSpeakerTitles(callback, JSONArray(cache))
             }
@@ -131,7 +131,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_speaker", "")
+                val cache = prefs.getString("cache_speaker", DataFallback.speaker)
                 if (cache == "") callback.onEntryLoaded(c, error, error, error, error)
                 else processToSpeakerEntry(callback, JSONArray(cache), index)
             }
@@ -180,7 +180,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_seminar", "")
+                val cache = prefs.getString("cache_seminar", DataFallback.seminar)
                 if (cache == "") callback.onTitlesLoaded(c, arrayOf(error))
                 else processToSeminarTitles(callback, JSONArray(cache))
             }
@@ -212,7 +212,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_seminar", "")
+                val cache = prefs.getString("cache_seminar", DataFallback.seminar)
                 if (cache == "") callback.onTitlesLoaded(c, arrayOf(error), arrayOf(error), arrayOf(error))
                 else processToSortedSeminarTitles(callback, JSONArray(cache))
             }
@@ -241,7 +241,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_seminar", "")
+                val cache = prefs.getString("cache_seminar", DataFallback.seminar)
                 if (cache == "") callback.onEntryLoaded(c, error, error, error, error, error, error)
                 else processToSeminarEntry(callback, JSONArray(cache), index)
             }
@@ -274,7 +274,7 @@ class Data(context: Context) {
             },
             Response.ErrorListener { e ->
                 Log.e(LOG_TAG, e.toString())
-                val cache = prefs.getString("cache_seminar", "")
+                val cache = prefs.getString("cache_seminar", DataFallback.seminar)
                 if (cache == "") callback.onEntryLoaded(c, error, error, error, error, error, error)
                 else processToSeminarEntryByTitle(callback, JSONArray(cache), title)
             }
