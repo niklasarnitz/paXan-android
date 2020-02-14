@@ -75,4 +75,10 @@
     <string name="speaker_detail_organisation">Organisation: %1$s</string>
     <string name="speaker_detail_website">Website: %1$s</string>
     <string name="speaker_detail_description">Beschreibung:\n%1$s</string>
+
+    <string name="quarters_description">Tippe auf den jeweiligen Namen, um zu deinem Massenquartier navigiert zu werden!</string>
+    <string name="quarters_dobeltalschule">JUNGS | Dobeltalschule Bad Herrenalb</string>
+    <string name="quarters_bronnenwiesenhalle">MÄDELS | Bronnenwiesenhalle</string>
+    <string name="quarters_kindergarten">MÄDELS | Kindergarten Dobel</string>
+    <string name="quarters_schule">MÄDELS | Schule Dobel</string>
 </resources>
