@@ -17,6 +17,12 @@
         tools:layout="@layout/fragment_main_map" />
 
     <fragment
+        android:id="@+id/navigation_silent"
+        android:name="com.swdec.paxan.main.SilentFragment"
+        android:label="@string/title_silent"
+        tools:layout="@layout/fragment_main_silent" />
+
+    <fragment
         android:id="@+id/navigation_dictionary"
         android:name="com.swdec.paxan.main.DictionaryFragment"
         android:label="@string/title_dictionary"

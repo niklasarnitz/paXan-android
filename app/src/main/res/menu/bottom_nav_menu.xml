@@ -12,6 +12,11 @@
         android:title="@string/title_map" />
 
     <item
+        android:id="@+id/navigation_silent"
+        android:icon="@drawable/ic_silent_menu"
+        android:title="@string/title_silent" />
+
+    <item
         android:id="@+id/navigation_dictionary"
         android:icon="@drawable/ic_book_menu"
         android:title="@string/title_dictionary" />
