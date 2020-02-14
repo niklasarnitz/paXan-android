@@ -77,6 +77,12 @@
     <string name="speaker_detail_website">Website: %1$s</string>
     <string name="speaker_detail_description">Beschreibung:\n%1$s</string>
 
+    <string name="silent_text">Stille Zeit und das Beschäftigen mit der Bibel ist eines der riesigen Geschenke Gottes an uns Menschen. Dort erfahren wir, wer Gott wirklich ist, und können unsere Vorstellungen daran korrigieren und uns an seinem Wort orientieren. Dabei werden wir immer mehr von Gott entdecken.  Nimm dir auch während dieser vollen Tage die Zeit, Gott zu begegnen und dich von ihm beschenken zu lassen!</string>
+    <string name="silent_friday">Freitag</string>
+    <string name="silent_saturday">Samstag</string>
+    <string name="silent_sunday">Sonntag</string>
+    <string name="silent_monday">Montag</string>
+
     <string name="quarters_description">Tippe auf den jeweiligen Namen, um zu deinem Massenquartier navigiert zu werden!</string>
     <string name="quarters_dobeltalschule">JUNGS | Dobeltalschule Bad Herrenalb</string>
     <string name="quarters_bronnenwiesenhalle">MÄDELS | Bronnenwiesenhalle</string>

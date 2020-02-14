@@ -9,5 +9,34 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/title_silent" />
+        android:layout_marginBottom="?dialogPreferredPadding"
+        android:text="@string/silent_text" />
+
+    <Button
+        android:id="@+id/friday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?dialogPreferredPadding"
+        android:text="@string/silent_friday" />
+
+    <Button
+        android:id="@+id/saturday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?dialogPreferredPadding"
+        android:text="@string/silent_saturday" />
+
+    <Button
+        android:id="@+id/sunday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?dialogPreferredPadding"
+        android:text="@string/silent_sunday" />
+
+    <Button
+        android:id="@+id/monday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="?dialogPreferredPadding"
+        android:text="@string/silent_monday" />
 </LinearLayout>
