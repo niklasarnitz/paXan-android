@@ -26,8 +26,8 @@ class InfoFragment : Fragment() {
         root.findViewById<Button>(R.id.donate).setOnClickListener {
             startActivity(Intent(context, DonateActivity::class.java))
         }
-        root.findViewById<Button>(R.id.timeline).setOnClickListener {
-            startActivity(Intent(context, TimelineActivity::class.java))
+        root.findViewById<Button>(R.id.quarters).setOnClickListener {
+            startActivity(Intent(context, QuartersActivity::class.java))
         }
         root.findViewById<Button>(R.id.about).setOnClickListener {
             startActivity(Intent(context, AboutActivity::class.java))

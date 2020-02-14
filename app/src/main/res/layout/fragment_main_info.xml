@@ -29,12 +29,12 @@
         android:text="@string/info_donate" />
 
     <Button
-        android:id="@+id/timeline"
+        android:id="@+id/quarters"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/donate"
         android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/info_timeline" />
+        android:text="@string/info_quarters" />
 
     <Button
         android:id="@+id/about"

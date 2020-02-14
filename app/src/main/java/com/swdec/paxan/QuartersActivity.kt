@@ -3,10 +3,10 @@ package com.swdec.paxan
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class TimelineActivity : AppCompatActivity() {
+class QuartersActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_timeline)
+        setContentView(R.layout.activity_quarters)
     }
 }

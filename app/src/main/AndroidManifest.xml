@@ -42,8 +42,8 @@
                 android:value="com.swdec.paxan.MainActivity" />
         </activity>
         <activity
-            android:name=".TimelineActivity"
-            android:label="@string/info_timeline">
+            android:name=".QuartersActivity"
+            android:label="@string/info_quarters">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.swdec.paxan.MainActivity" />
