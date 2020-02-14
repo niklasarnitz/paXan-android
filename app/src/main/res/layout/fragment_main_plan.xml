@@ -76,6 +76,7 @@
                 android:id="@+id/plan_1_click"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/clickable_seminar_background"
                 android:clickable="true"
                 android:focusable="true"
                 android:orientation="vertical">
@@ -99,6 +100,7 @@
                 android:id="@+id/plan_2_click"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/clickable_seminar_background"
                 android:clickable="true"
                 android:focusable="true"
                 android:orientation="vertical">
@@ -165,6 +167,7 @@
                 android:id="@+id/plan_3_click"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/clickable_seminar_background"
                 android:clickable="true"
                 android:focusable="true"
                 android:orientation="vertical">
