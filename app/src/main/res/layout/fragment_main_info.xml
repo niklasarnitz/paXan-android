@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="?dialogPreferredPadding"
-    android:layout_marginBottom="@dimen/navbar_height">
+    android:layout_marginBottom="@dimen/nav_bar_height">
 
     <Button
         android:id="@+id/speakers"

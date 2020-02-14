@@ -4,8 +4,6 @@
     <string name="loading">Lädt …</string>
     <string name="error">Fehler …</string>
 
-    <string name="default_name">Gast</string>
-
     <string name="setup_header">Setup</string>
     <string name="setup_welcome">Willkommen in der paXan App!</string>
     <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWDEC heißen wir dich herzlich Willkommen zu paXan 2020!</string>
@@ -24,16 +22,10 @@
 
     <string name="settings_header">Einstellungen</string>
 
-    <string name="title_home">Mein paXan</string>
     <string name="title_plan">Programm</string>
     <string name="title_map">Karte</string>
     <string name="title_dictionary">Lexikon</string>
     <string name="title_info">Infos</string>
-
-    <string name="home_image_alt">Silhouette eines Menschen</string>
-    <string name="home_title">Hallo, %1$s!</string>
-    <string name="home_summary">paXan startet bald!\nDann kannst du die App benutzen</string>
-    <string name="home_change_name">Name ändern</string>
 
     <string name="plan_thursday">Donnerstag, 09. April 2020</string>
     <string name="plan_heimatkunde">#heimatkunde</string>

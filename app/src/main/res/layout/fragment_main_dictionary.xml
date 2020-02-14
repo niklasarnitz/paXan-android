@@ -4,7 +4,7 @@
     android:id="@+id/listView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="@dimen/navbar_height"
+    android:layout_marginBottom="@dimen/nav_bar_height"
     android:paddingTop="?dialogPreferredPadding"
     android:paddingBottom="?dialogPreferredPadding"
     android:clipToPadding="false"

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginBottom="@dimen/navbar_height">
+    android:layout_marginBottom="@dimen/nav_bar_height">
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

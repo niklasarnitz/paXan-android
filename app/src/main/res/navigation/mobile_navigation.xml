@@ -2,13 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/navigation_home">
-
-    <fragment
-        android:id="@+id/navigation_home"
-        android:name="com.swdec.paxan.main.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_main_home" />
+    app:startDestination="@+id/navigation_plan">
 
     <fragment
         android:id="@+id/navigation_plan"
