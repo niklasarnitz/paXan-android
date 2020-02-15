@@ -26,12 +26,17 @@
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="?dialogPreferredPadding"
-        android:background="#14000000" />
+        android:background="@color/dividerColor" />
 
-    <TextView
-        android:id="@+id/textView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="?dialogPreferredPadding"
-        android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="?dialogPreferredPadding"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+    </ScrollView>
 </LinearLayout>

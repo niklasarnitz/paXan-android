@@ -8,6 +8,7 @@
         <item name="dialogCornerRadius">@dimen/dialog_corner_radius</item>
         <item name="spinnerStyle">@style/AppThemeSpinner</item>
         <item name="buttonStyle">@style/AppThemeButton</item>
+        <item name="android:listViewStyle">@style/AppThemeListView</item>
     </style>
 
     <style name="AppTheme.NoActionbar" parent="AppTheme">
@@ -44,4 +45,10 @@
         <item name="android:spinnerMode">dialog</item>
     </style>
 
+    <style name="AppThemeListView" parent="Widget.AppCompat.ListView">
+        <item name="android:paddingTop">?dialogPreferredPadding</item>
+        <item name="android:paddingBottom">?dialogPreferredPadding</item>
+        <item name="android:divider">@null</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
 </resources>

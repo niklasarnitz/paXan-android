@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="?dialogPreferredPadding"
     tools:context=".QuartersActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/quarters_description" />
+        android:orientation="vertical"
+        android:padding="?dialogPreferredPadding">
 
-    <Button
-        android:id="@+id/dobeltalschule"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/quarters_dobeltalschule" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/quarters_description" />
 
-    <Button
-        android:id="@+id/bronnenwiesenhalle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/quarters_bronnenwiesenhalle" />
+        <Button
+            android:id="@+id/dobeltalschule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/quarters_dobeltalschule" />
 
-    <Button
-        android:id="@+id/kindergarten"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/quarters_kindergarten" />
+        <Button
+            android:id="@+id/bronnenwiesenhalle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/quarters_bronnenwiesenhalle" />
 
-    <Button
-        android:id="@+id/schule"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/quarters_schule" />
-</LinearLayout>
+        <Button
+            android:id="@+id/kindergarten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/quarters_kindergarten" />
+
+        <Button
+            android:id="@+id/schule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quarters_schule" />
+    </LinearLayout>
+</ScrollView>

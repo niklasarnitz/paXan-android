@@ -2,44 +2,54 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="?dialogPreferredPadding"
     android:layout_marginBottom="@dimen/nav_bar_height">
 
-    <Button
-        android:id="@+id/speakers"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/info_speakers" />
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/activity_bottom_margin">
 
-    <Button
-        android:id="@+id/seminars"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/speakers"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/info_seminars" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="?dialogPreferredPadding"
+            android:orientation="vertical">
 
-    <Button
-        android:id="@+id/donate"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/seminars"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/info_donate" />
+            <Button
+                android:id="@+id/speakers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="?dialogPreferredPadding"
+                android:text="@string/info_speakers" />
 
-    <Button
-        android:id="@+id/quarters"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/donate"
-        android:layout_marginBottom="?dialogPreferredPadding"
-        android:text="@string/info_quarters" />
+            <Button
+                android:id="@+id/seminars"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="?dialogPreferredPadding"
+                android:text="@string/info_seminars" />
+
+            <Button
+                android:id="@+id/donate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="?dialogPreferredPadding"
+                android:text="@string/info_donate" />
+
+            <Button
+                android:id="@+id/quarters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="?dialogPreferredPadding"
+                android:text="@string/info_quarters" />
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="?dialogPreferredPadding"
         android:layout_alignParentBottom="true"
         android:text="@string/info_about" />
 </RelativeLayout>

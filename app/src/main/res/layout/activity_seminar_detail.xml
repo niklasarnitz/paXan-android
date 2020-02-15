@@ -39,29 +39,35 @@
         android:layout_height="1dp"
         android:layout_below="@id/subtitle"
         android:layout_marginTop="?dialogPreferredPadding"
-        android:background="#14000000" />
+        android:background="@color/dividerColor" />
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/divider"
-        android:padding="?dialogPreferredPadding"
-        android:orientation="vertical">
+        android:layout_marginBottom="@dimen/activity_bottom_margin"
+        android:layout_below="@id/divider">
 
-        <TextView
-            android:id="@+id/speaker"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+            android:padding="?dialogPreferredPadding"
+            android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/room"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-    </LinearLayout>
+            <TextView
+                android:id="@+id/speaker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="?dialogPreferredPadding"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            <TextView
+                android:id="@+id/room"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="?dialogPreferredPadding"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+        </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/navigateBtn"
@@ -70,5 +76,4 @@
         android:layout_margin="?dialogPreferredPadding"
         android:layout_alignParentBottom="true"
         android:text="@string/seminar_detail_navigate" />
-
 </RelativeLayout>

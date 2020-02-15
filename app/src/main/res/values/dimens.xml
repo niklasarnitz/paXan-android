@@ -6,4 +6,5 @@
     <dimen name="border_radius">4dp</dimen>
     <dimen name="dialog_corner_radius">16dp</dimen>
     <dimen name="nav_bar_height">56dp</dimen>
+    <dimen name="activity_bottom_margin">48dp</dimen>
 </resources>
