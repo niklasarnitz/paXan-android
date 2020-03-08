@@ -84,13 +84,6 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="?dialogPreferredPadding"
-            android:text="@string/library_play_services_maps"
-            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/library_volley"
             android:textAppearance="@style/TextAppearance.AppCompat.Small" />
     </LinearLayout>

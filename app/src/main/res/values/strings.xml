@@ -99,7 +99,8 @@
     <string name="library_navigation_ui_ktx">Android Navigation UI Kotlin Extensions\nApache License 2.0</string>
     <string name="library_preference">AndroidX Preference\nApache License 2.0</string>
     <string name="library_junit">JUnit\nEPL License 1.0</string>
-    <string name="library_material">Material Components For Android</string>
-    <string name="library_play_services_maps">Play Services Maps\nApache License 2.0</string>
+    <string name="library_material">Material Components For Android\nApache License 2.0</string>
     <string name="library_volley">Volley\nApache License 2.0</string>
+
+    <string name="placeholder">Platzhalter</string>
 </resources>
