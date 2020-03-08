@@ -92,5 +92,14 @@
     <string name="about_imprint">Impressum</string>
     <string name="about_imprint_text">Südwestdeutscher Jugendverband »Entschieden für Christus« (EC) e.V.\nKatharinenstraße 27\n70794 Filderstadt\nTelefon: +49–7158–939130\nTelefax: +49–7158–9391313\nE-Mail: info@swdec.de\nInternet: www.swdec.de\n\nVertretungsberechtigt:\nKaufmännischer Geschäftsführer: Patrick Veihelmann\nGeschäftsführer Jugendarbeit: Armin Hassler\n1. Vorsitzender: Martin Auch\n2. Vorsitzender: Frank Walz\n\nUnsere Bankverbindungen:\n\nKto-Nr.: 672700000\nBLZ: 61161696\nVolksbank Filder eG\n\nIBAN: DE79611616960672700000\nBIC: GENODES1NHB\n\nRegistergericht: Amtsgericht Stuttgart\nRegisternummer: VR 220270 \n\nVerantwortlich für das Internetangebot im Sinne des § 5 TMG und inhaltlich verantwortlich im Sinne des § 55 RStV: Martin Auch und Frank Walz\n\nHaftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</string>
     <string name="about_licenses">Open-Source Lizenzen</string>
-    <string name="about_licenses_text">MIT License\nApache License 2.0\nTODO</string>
+
+    <string name="library_appcompat">Android AppCompat Library V7\nApache License 2.0</string>
+    <string name="library_navigation_fragment_ktx">Android Navigation Fragment Kotlin Extensions\nApache License 2.0</string>
+    <string name="library_navigation_ui">Android Navigation UI\nApache License 2.0</string>
+    <string name="library_navigation_ui_ktx">Android Navigation UI Kotlin Extensions\nApache License 2.0</string>
+    <string name="library_preference">AndroidX Preference\nApache License 2.0</string>
+    <string name="library_junit">JUnit\nEPL License 1.0</string>
+    <string name="library_material">Material Components For Android</string>
+    <string name="library_play_services_maps">Play Services Maps\nApache License 2.0</string>
+    <string name="library_volley">Volley\nApache License 2.0</string>
 </resources>
