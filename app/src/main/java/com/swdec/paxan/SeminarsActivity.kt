@@ -17,7 +17,7 @@ class SeminarsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_seminars)
 
         listView = findViewById(R.id.listView)
-        val adapter = ArrayAdapter<String>(
+        val adapter = ArrayAdapter(
             this,
             R.layout.list_item_seminar,
             R.id.text1,
@@ -29,7 +29,7 @@ class SeminarsActivity : AppCompatActivity() {
 
     private val requestCallback = object : Data.SeminarCallback {
         override fun onTitlesLoaded(context: Context, titles: Array<String>) {
-            val adapter = ArrayAdapter<String>(
+            val adapter = ArrayAdapter(
                 context,
                 R.layout.list_item_seminar,
                 R.id.text1,

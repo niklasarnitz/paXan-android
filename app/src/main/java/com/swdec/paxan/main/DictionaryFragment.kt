@@ -26,7 +26,7 @@ class DictionaryFragment : Fragment() {
     ): View? {
         val root = inflater.inflate(R.layout.fragment_main_dictionary, container, false)
         listView = root.findViewById(R.id.listView)
-        val adapter = ArrayAdapter<String>(
+        val adapter = ArrayAdapter(
             context!!,
             R.layout.list_item_dictionary,
             R.id.text1,
@@ -39,7 +39,7 @@ class DictionaryFragment : Fragment() {
 
     private val requestCallback = object : Data.DictionaryCallback {
         override fun onTitlesLoaded(context: Context, titles: Array<String>) {
-            val adapter = ArrayAdapter<String>(
+            val adapter = ArrayAdapter(
                 context,
                 R.layout.list_item_dictionary,
                 R.id.text1,

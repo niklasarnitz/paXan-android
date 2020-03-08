@@ -17,7 +17,7 @@ class SpeakersActivity : AppCompatActivity() {
         setContentView(R.layout.activity_speakers)
 
         listView = findViewById(R.id.listView)
-        val adapter = ArrayAdapter<String>(
+        val adapter = ArrayAdapter(
             this,
             R.layout.list_item_speakers,
             R.id.text1,
@@ -29,7 +29,7 @@ class SpeakersActivity : AppCompatActivity() {
 
     private val requestCallback = object : Data.SpeakerCallback {
         override fun onTitlesLoaded(context: Context, titles: Array<String>) {
-            val adapter = ArrayAdapter<String>(
+            val adapter = ArrayAdapter(
                 context,
                 R.layout.list_item_speakers,
                 R.id.text1,
