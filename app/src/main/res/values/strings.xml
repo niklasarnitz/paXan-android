@@ -1,21 +1,21 @@
 <resources>
-    <string name="app_name">paXan</string>
+    <string name="app_name">paX an</string>
 
     <string name="loading">Lädt …</string>
     <string name="error">Fehler …</string>
 
     <string name="setup_header">Setup</string>
-    <string name="setup_welcome">Willkommen in der paXan App!</string>
-    <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWDEC heißen wir dich herzlich Willkommen zu paXan 2020!</string>
-    <string name="setup_name">Deine paXan App</string>
+    <string name="setup_welcome">Willkommen in der paX an App!</string>
+    <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWD-EC heißen wir dich herzlich Willkommen zu paX an 2020!</string>
+    <string name="setup_name">Deine paX an App</string>
     <string name="setup_name_summary">Damit wir dich in der App etwas persönlicher ansprechen können, gib bitte im unteren Textfeld deinen Vornamen ein. Den speichern wir natürlich nur auf deinem Gerät.</string>
     <string name="setup_name_hint">Name</string>
-    <string name="setup_plan">Deine paXan Seminare</string>
+    <string name="setup_plan">Deine paX an Seminare</string>
     <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falls du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
     <string name="setup_plan_1">Seminar 1</string>
     <string name="setup_plan_2">Seminar 2</string>
     <string name="setup_plan_3">Seminar 3</string>
-    <string name="setup_finish">Und jetzt viel Spaß bei paXan!</string>
+    <string name="setup_finish">Und jetzt viel Spaß bei paX an!</string>
     <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
     <string name="setup_continue">Weiter</string>
     <string name="setup_continue2">Fertig</string>
