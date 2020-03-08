@@ -1,21 +1,21 @@
 <resources>
-    <string name="app_name">paXan</string>
+    <string name="app_name">paX an</string>
 
     <string name="loading">Lädt …</string>
     <string name="error">Fehler …</string>
 
     <string name="setup_header">Setup</string>
-    <string name="setup_welcome">Willkommen in der paXan App!</string>
-    <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWDEC heißen wir dich herzlich Willkommen zu paXan 2020!</string>
-    <string name="setup_name">Deine paXan App</string>
+    <string name="setup_welcome">Willkommen in der paX an App!</string>
+    <string name="setup_welcome_summary">Cool, dass du da bist!\nIm Namen des SWD-EC heißen wir dich herzlich Willkommen zu paX an 2020!</string>
+    <string name="setup_name">Deine paX an App</string>
     <string name="setup_name_summary">Damit wir dich in der App etwas persönlicher ansprechen können, gib bitte im unteren Textfeld deinen Vornamen ein. Den speichern wir natürlich nur auf deinem Gerät.</string>
     <string name="setup_name_hint">Name</string>
-    <string name="setup_plan">Deine paXan Seminare</string>
+    <string name="setup_plan">Deine paX an Seminare</string>
     <string name="setup_plan_summary">Trage hier unten bitte deine Seminare ein. Keine Angst, falls du etwas falsch machst, kannst du es später natürlich nocheinmal ändern.</string>
     <string name="setup_plan_1">Seminar 1</string>
     <string name="setup_plan_2">Seminar 2</string>
     <string name="setup_plan_3">Seminar 3</string>
-    <string name="setup_finish">Und jetzt viel Spaß bei paXan!</string>
+    <string name="setup_finish">Und jetzt viel Spaß bei paX an!</string>
     <string name="setup_finish_summary">In der App findest du alles, was du früher in deinem Kongressheft gefunden hast.</string>
     <string name="setup_continue">Weiter</string>
     <string name="setup_continue2">Fertig</string>
@@ -38,7 +38,7 @@
     <string name="plan_10_1130">11:30 Uhr\nBibel Session mit Klaus Göttler</string>
     <string name="plan_1">15:00 Uhr\nSeminar 1</string>
     <string name="plan_2">16:30 Uhr\nSeminar 2</string>
-    <string name="plan_10_1930">19:30\nUhr Das Kreuz</string>
+    <string name="plan_10_1930">19:30 Uhr\nDas Kreuz</string>
     <string name="plan_saturday">Samstag, 11. April 2020</string>
     <string name="plan_heimweh">#heimweh</string>
     <string name="plan_11_0930">09:30 Uhr\nBibel Session mit Joachim Böker</string>
@@ -68,13 +68,13 @@
     <string name="info_about">Über</string>
 
     <string name="seminar_detail_title">Seminar</string>
-    <string name="seminar_detail_speaker">Referent: %1$s</string>
-    <string name="seminar_detail_room">Raum: %1$s</string>
+    <string name="seminar_detail_speaker">Referent:\n%1$s</string>
+    <string name="seminar_detail_room">Raum:\n%1$s</string>
     <string name="seminar_detail_navigate">Navigieren</string>
 
     <string name="speaker_detail_title">Referent</string>
-    <string name="speaker_detail_organisation">Organisation: %1$s</string>
-    <string name="speaker_detail_website">Website: %1$s</string>
+    <string name="speaker_detail_organisation">Organisation:\n%1$s</string>
+    <string name="speaker_detail_website">Website:\n%1$s</string>
     <string name="speaker_detail_description">Beschreibung:\n%1$s</string>
 
     <string name="silent_text">Stille Zeit und das Beschäftigen mit der Bibel ist eines der riesigen Geschenke Gottes an uns Menschen. Dort erfahren wir, wer Gott wirklich ist, und können unsere Vorstellungen daran korrigieren und uns an seinem Wort orientieren. Dabei werden wir immer mehr von Gott entdecken.  Nimm dir auch während dieser vollen Tage die Zeit, Gott zu begegnen und dich von ihm beschenken zu lassen!</string>
@@ -92,5 +92,15 @@
     <string name="about_imprint">Impressum</string>
     <string name="about_imprint_text">Südwestdeutscher Jugendverband »Entschieden für Christus« (EC) e.V.\nKatharinenstraße 27\n70794 Filderstadt\nTelefon: +49–7158–939130\nTelefax: +49–7158–9391313\nE-Mail: info@swdec.de\nInternet: www.swdec.de\n\nVertretungsberechtigt:\nKaufmännischer Geschäftsführer: Patrick Veihelmann\nGeschäftsführer Jugendarbeit: Armin Hassler\n1. Vorsitzender: Martin Auch\n2. Vorsitzender: Frank Walz\n\nUnsere Bankverbindungen:\n\nKto-Nr.: 672700000\nBLZ: 61161696\nVolksbank Filder eG\n\nIBAN: DE79611616960672700000\nBIC: GENODES1NHB\n\nRegistergericht: Amtsgericht Stuttgart\nRegisternummer: VR 220270 \n\nVerantwortlich für das Internetangebot im Sinne des § 5 TMG und inhaltlich verantwortlich im Sinne des § 55 RStV: Martin Auch und Frank Walz\n\nHaftungshinweis: Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.</string>
     <string name="about_licenses">Open-Source Lizenzen</string>
-    <string name="about_licenses_text">MIT License\nApache License 2.0\nTODO</string>
+
+    <string name="library_appcompat">Android AppCompat Library V7\nApache License 2.0</string>
+    <string name="library_navigation_fragment_ktx">Android Navigation Fragment Kotlin Extensions\nApache License 2.0</string>
+    <string name="library_navigation_ui">Android Navigation UI\nApache License 2.0</string>
+    <string name="library_navigation_ui_ktx">Android Navigation UI Kotlin Extensions\nApache License 2.0</string>
+    <string name="library_preference">AndroidX Preference\nApache License 2.0</string>
+    <string name="library_junit">JUnit\nEPL License 1.0</string>
+    <string name="library_material">Material Components For Android\nApache License 2.0</string>
+    <string name="library_volley">Volley\nApache License 2.0</string>
+
+    <string name="placeholder">Platzhalter</string>
 </resources>

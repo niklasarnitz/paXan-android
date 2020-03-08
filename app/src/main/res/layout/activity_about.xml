@@ -35,7 +35,56 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/about_licenses_text"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_appcompat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_navigation_fragment_ktx"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_navigation_ui"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_navigation_ui_ktx"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_preference"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_junit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="?dialogPreferredPadding"
+            android:text="@string/library_material"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/library_volley"
             android:textAppearance="@style/TextAppearance.AppCompat.Small" />
     </LinearLayout>
 </ScrollView>
